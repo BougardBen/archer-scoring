@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Archer-Scoring fichier"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "archer-scoring"
+	}
+}

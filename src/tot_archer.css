@@ -1,0 +1,63 @@
+.archer-container {
+    padding : 15px;	
+      font-family :  'Berlin Sans FB',  Verdana, Arial, Calibri;
+      text-align : center;
+      background-color :  #5f6f6f;	/* couleur logo */	
+  }
+  .archer-header {   
+    /* background-color :  #01a8a9;	couleur logo		 */
+    /* border: 2px solid #dc1b1b;  */
+    border-radius: 10px ;			/* bordure arrondie */
+    /* padding: 1px; */
+    /* margin: 1px; */
+    font-size :large;
+    color : white;				/* color text */	
+    }
+   
+.Home-button {
+  border: none;
+  color: rgb(1, 1, 1);
+  padding: 10px;
+  margin: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 50px;
+  background-color: #01a8a9;  /*#05b837*/ 
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+caption {
+  caption-side: bottom;
+  padding: 5px;
+  font-weight: bold;
+}
+
+thead,
+tfoot {
+  background-color: rgb(13, 164, 228);
+}
+
+th,
+td {
+  border: 1px solid rgb(223, 15, 15);
+  padding: 3px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(25, 64, 219);
+}
+
+tfoot th {
+  text-align: right;
+}

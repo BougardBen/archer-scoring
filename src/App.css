@@ -1,0 +1,126 @@
+.home-container {
+  padding : 20px;	
+	font-family :  'Berlin Sans FB',  Verdana, Arial, Calibri;
+	text-align : center;
+	background-color :  #5f6f6f;	/* couleur logo */	
+}
+.home-header {   
+  background-color :  #01a8a9;	/* couleur logo */		
+	border: 2px solid #dc1b1b; 
+  border-radius: 20px ;			/* bordure arrondie */
+  padding: 1px;
+  margin: 5px;
+	font-size :x-large;
+	color : #090000;				/* color text */	
+ /* display: flex; 
+  flex-direction:row; 
+  align-items: center; 
+  justify-content: space-around; /* Centrer horizontalement le contenu */
+}
+.para-header {
+  display: flex; 
+  flex-direction:row; 
+  align-items: center;   
+  justify-content: space-around;
+  color: #090000;
+  margin: 10px;
+}
+.blason {
+  display: flex; 
+  flex-direction:row; 
+  align-items: center; 
+  justify-content: space-around;
+  margin-top: 50px;
+  width: 80px;
+  border-radius: 15px ;
+  margin-right: 20px; 
+}
+
+/* .archers-grid {
+  
+}  */
+
+.archer-card {  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  width: 300px;
+  height: 60px;
+  border: 2px solid #0a0a0a;
+  border-radius: 8px;
+  padding: 10px;  
+  margin : 6px 2px;
+  position: relative;
+  cursor: pointer;
+}
+.archer-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+  /* background-color: #01a8a9; */
+}
+.edit-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+/* .archer-score {
+  display: flex;
+  flex-wrap: column;
+  justify-content: space-between;   
+} */
+
+.edit-input {
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+  padding: 4px 8px;
+  font-size: 1em;
+  width: 80%;
+}
+
+.edit-input:focus {
+  outline: none;
+  border-color: #ffffff80;
+}
+
+.buttons-container {
+  margin-top: 5px; 
+}
+.buttons-container button {
+  margin: 5px;
+  width: 150px;
+  height: 40px;
+  color : black;
+  cursor: pointer;
+  border: olivedrab;
+}
+
+/* .new-button,
+.reset-names-button
+.reset-scores-button,
+.begin-button {
+  border: none;  
+  padding: 10px;
+  margin: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 102px; 
+} */
+
+.reset-names-button {
+  background-color: #dfac4e; 
+}
+.new-button {
+  background-color: #ff0000; 
+}
+
+.reset-scores-button {
+  background-color: #c40481;
+}
+
+.begin-button {
+  background-color: #01a8a9;  /*#05b837*/ 
+}
