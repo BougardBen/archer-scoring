@@ -21,7 +21,7 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/archer-scoring'>
       <App />
     </BrowserRouter>
   </React.StrictMode>
