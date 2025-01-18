@@ -1,16 +1,16 @@
 {
   "name": "archer-scoring",
   "private": true,
-  "homepage": "https://BougardBen.github.io/archer-scoring",
+  "homepage": " https://bougardben.github.io/archer-scoring/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+     "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"   
   },
   "dependencies": {
     "react": "^18.3.1",
